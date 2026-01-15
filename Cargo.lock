@@ -86,6 +86,7 @@ dependencies = [
  "dotenv",
  "env_logger",
  "log",
+ "payment",
  "serde",
  "serde_json",
  "tokio",
@@ -1208,6 +1209,17 @@ dependencies = [
 [[package]]
 name = "payment"
 version = "0.1.0"
+dependencies = [
+ "axum",
+ "chrono",
+ "dotenv",
+ "env_logger",
+ "log",
+ "serde",
+ "serde_json",
+ "tracing",
+ "uuid",
+]
 
 [[package]]
 name = "pem-rfc7468"
