@@ -18,3 +18,4 @@ dotenv = "0.15.0"
 
 auth = { path = "../services/auth" }
 payment = { path = "../services/payment" }
+common = { path = "../common" }

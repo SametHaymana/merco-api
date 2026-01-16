@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["api","services/auth" ,"services/payment"]
+members = ["api", "common", "services/auth", "services/payment"]
 
 [profile.release]
 opt-level = 3
@@ -9,6 +9,7 @@ codegen-units = 1
 strip = true
 overflow-checks = false
 panic = "abort"
+
 
 [profile.release-with-debug]
 inherits = "release"
